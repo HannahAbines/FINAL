@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+body{
+    background: #28544B;
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    margin-right: 200px;
+    width:150px;
+    height:150px;
+    margin-left: 30px;
+}
+
+
+.navigation a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    
+}
+.navigation a:hover, 
+.navigation a.active{
+    background:#fff;
+    color: #28544B;
+}
+#theowner{
+    padding: 25px 0 25px 0;
+}
+
+#theowner-row{
+    display: flex;
+    padding: 170px 10px 150px 10px;
+}
+#theowner-col{
+    box-shadow: 2px 2px 2px #bbb;
+    border:1px solid #bbb;
+    background-color: #fff;
+    margin: 3px;
+    padding: 1px;
+    flex: 1;
+}
+#theowner-col h2{
+    background-color: #A7D7C5;
+    color: #28544B;
+    text-align: center;
+    padding: 5px;
+    font-family:cursive;
+}
+#ownerimage{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid #28544B;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+#ownerimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.owner{
+    display:flex;
+    flex-direction: column;
+    margin-left: 120px;
+    text-align: left;
+    margin: 5px;
+}
+.owner #image{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.owner h3{
+    display: flex;
+    margin-left: 550px;
+    font-size: 25px;  
+}
+.owner h4{
+    display: block;
+    margin-left:590px ;
+    font-size: 20px;  
+}
+.par{
+    text-align: center;
+    color:#28544B;
+    text-align: center;
+    padding:5px 20px;
+    margin:20px;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+    
+    .para{
+        text-align: center;
+        color:#28544B;
+        text-align: center;
+        padding:5px 20px;
+        font-size: 20px;   
+    }
+    .paragra{
+        text-align: center;
+        color:#28544B;
+        text-align: center;
+        padding:5px 20px;
+        font-size: 20px;  
+    }
+    #customer{
+        color:darkred;
+        font-family: cursive;
+        font-size: 25px;
+        text-align: center;
+    }

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300,700;1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+
+}
+body{
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    margin-right: 200px;
+    width:150px;
+    height:150px;
+    margin-left: -70px;
+}
+
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    
+}
+.navigation a:hover, 
+.navigation a.active{
+    background: #359381;
+    color: #fff;
+}
+.sandwichcorner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 60px;
+}
+
+
+#text{
+    position:absolute;
+    left:285px;
+    font-size: 5rem;
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+.sandwichcorner img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    pointer-events: none;
+}
+#burger{
+    position: absolute;
+    top: 230px;
+    left:25px;
+    width:280px;
+    height: 280px;
+    pointer-events: none;
+}
+#hotdog{
+    position: absolute;
+    top: 230px;
+    left:825px;
+    width:430px;
+    height: 260px;
+    pointer-events: none;
+}
+#dump1{
+    position: absolute;
+    width:130px;
+    height: 70px;
+    left:270px;
+    top:440px;
+    justify-content: center;
+    pointer-events: none;
+}
+#dumpb{
+    position: absolute;
+    width:130px;
+    height: 70px;
+    left:140px;
+    top:440px;
+    justify-content: center;
+    pointer-events: none;
+}
+#dumpc{
+    position: absolute;
+    width:130px;
+    height: 70px;
+    left:10px;
+    top:440px;
+    justify-content: center;
+    pointer-events: none;
+}
+#dump2{
+    position: absolute;
+    width:150px;
+    height: 70px;
+   left:990px;
+    top:220px;
+    justify-content: center;
+    pointer-events: none;
+}
+#dumpd{
+    position: absolute;
+    width:150px;
+    height: 70px;
+   left:1050px;
+    top:270px;
+    transform:rotate(-10deg) ;
+    justify-content: center;
+    pointer-events: none;
+}
+.aboutsandwich{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.aboutsandwich h2{
+    font-size: 3em;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.aboutsandwich p{
+    font-size: 1em;
+    color: #fff;
+   
+}
+
+  

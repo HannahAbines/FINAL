@@ -1,0 +1,152 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+
+}
+body{
+  background: #28544B;
+  min-height: 100vh;
+  overflow-x:hidden;
+}
+header{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.logo{
+  margin-right: 200px;
+  width:150px;
+  height:150px;
+  margin-left: 30px;
+}
+
+.navigation{
+  margin-top: -10%;
+}
+.navigation a{
+  
+  text-decoration: none;
+  color:#fff;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin-bottom: 10%;
+  font-weight: 600;
+  
+}
+.navigation a:hover, 
+.navigation a.active{
+  background:#98c3aa;
+  color: #28544B;
+}
+
+
+.contact-left h1{
+	padding-top: 150px;
+	padding-left: 35px;
+	color: yellow;
+	font-size: 75px;
+	font-family: "Audiowide",sans-serif;
+	text-align: center;
+	}
+	
+	.contact-left p{
+		margin-top: 30px;
+		position:relative;
+		bottom: -650px; 
+	}
+	.contact-left p i{
+		color:#ff004f;
+		margin-right:15px;
+		font-size:25px;
+	 
+	}
+	.column{
+		color:#fff;
+	}
+	/* Style inputs */
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid yellow;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		Color:darkblue;
+	  }
+	  
+	  #location{
+		color:black;
+	  }
+	  #location option{
+		color: blue;
+	  }
+	  input[type=submit] {
+		background-color: #006f46;
+		color: rgb(255, 255, 255);
+		padding: 12px 20px;
+		border: none;
+		cursor: pointer;
+	  }
+	  
+	  input[type=submit]:hover {
+		background-color: #45a049;
+	  }
+	  
+
+	
+	  
+	  .column {
+		margin-left:25% ;
+		width: 50%;
+		margin-top: 6px;
+		padding-left: 10px;
+	  }
+	  
+	  /* Clear floats after the columns */
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	  
+	  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+	  @media screen and (max-width: 600px) {
+		.column, input[type=submit] {
+		  width: 100%;
+		  margin-top: 0;
+		}
+	  }
+	  .button {
+		background-color: yellow;
+		border: none;
+		color: blue;
+		padding: 10px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	  }
+	  .map{
+	margin-top: 15px;
+	padding-top: 15px;
+	  }
+	  .ourlocation{
+	color: yellow;
+	font-size: 50px;
+	font-family: "Audiowide",sans-serif;
+	text-align: left;
+	padding-top: 60%;
+	padding-left: 60px;
+	  }
